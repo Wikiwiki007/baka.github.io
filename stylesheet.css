@@ -111,7 +111,7 @@ body{
     box-sizing: border-box;
 }
 
-.menu{
+a{
 animation-name: exampl;
         animation-duration: 10s;
         animation-iteration-count: infinite;        
