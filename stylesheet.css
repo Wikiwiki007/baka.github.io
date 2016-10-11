@@ -111,7 +111,7 @@ body{
     box-sizing: border-box;
 }
 
-a{
+.menu{
 animation-name: exampl;
         animation-duration: 10s;
         animation-iteration-count: infinite;        
@@ -123,7 +123,7 @@ animation-name: exampl;
     
       
 }
-a:hover{
+.menu:hover{
     -webkit-transform: rotateX(150deg); /* Safari */
     transform: rotateX(150deg); /* Standard syntax */
 }
