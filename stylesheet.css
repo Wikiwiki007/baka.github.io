@@ -115,6 +115,14 @@ a{
 animation-name: exampl;
         animation-duration: 10s;
         animation-iteration-count: infinite;        
-        font-size: 40px;
-
+        font-size: 20px;
+     text-decoration: none;
+    transition: rotateX 2s;
+}
+    
+      
+}
+a:hover{
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg); /* Standard syntax */
 }
