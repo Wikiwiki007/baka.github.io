@@ -1,0 +1,105 @@
+body{
+    color: white;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    background-color: black;
+ } 
+
+ .main{
+
+        padding-top: 10%;
+        
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;        
+        font-size: 40px;
+ }
+
+   #footer {
+    color:white;
+    clear:both;
+    text-align:center;
+   padding-top:25%;      
+}
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    animation-name: example;
+}
+.button5 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    border: 2px dashed black;
+}
+.links{
+          padding-top: 5%;
+
+}       
+
+
+/* The animation code */
+@keyframes example {
+    0%   {color:#00ffff;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: green;}
+    100% {color: pink;}
+}
+
+
+.pVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); 
+    background-size: cover;
+    background-color: black;
+}
+.divide {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 35px;
+    background: #1e5799;
+    background: -moz-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#1e5799),color-stop(50%,#f300ff),color-stop(100%,#e0ff00));
+    background: -webkit-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -o-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -ms-linear-gradient(left,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: linear-gradient(to right,#1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799',endColorstr='#e0ff00',GradientType=1);
+    height: 5px;
+    border-bottom: 1px solid #000;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
