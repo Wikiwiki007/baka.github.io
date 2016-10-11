@@ -65,6 +65,13 @@ body{
     100% {color: pink;}
 }
 
+@keyframes exampl {
+    0%   {color:#00ffff;}
+    25%  {color: pink;}
+    50%  {color: green;}
+    75%  {color: blue;}
+    100% {color: yellow;}
+}
 
 .pVideo {
     position: fixed;
@@ -105,7 +112,7 @@ body{
 }
 
 .menu{
-animation-name: example;
+animation-name: exampl;
         animation-duration: 10s;
         animation-iteration-count: infinite;        
         font-size: 40px;
